@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@600&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+:root{
+    --rosaclaro:#FFCEE6;
+    --rosaoscuro:#CA1843;
+}
+body{
+    overflow:hidden;
+    font-size:15px;
+}
+header, nav, main, footer{
+    padding: 0 200px;
+}
+/*HEADER*/
+header{
+    text-align:center;
+    font-size:1.5em;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-family:'Fuzzy Bubbles';
+    background:var(--rosaoscuro);
+    color:snow;
+    height:8vh;
+}
+/*NAV*/
+nav{
+    background-color: #FFCEE6;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 17vh;
+    font-family:'Fuzzy Bubbles';
+    font-size:1.5em;
+}
+nav img{
+    width:80px;
+    height:80px;
+}
+/*MAIN*/
+main{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:space-around;
+    background-color:var(--rosaclaro);
+    height:58vh;
+    font-family: 'Roboto';
+}
+table{
+    font-family:'Fuzzy Bubbles';
+    font-size:large;
+    justify-content: center;
+}
+#llista{
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    justify-content:space-between;
+}
+ul{
+    font-family:'Fuzzy Bubbles';
+    font-size:16px;
+    justify-content: center;
+}
+ul li:hover{
+    box-shadow: 0 0 25px black;
+    color: var(--rosaoscuro);
+    background: white;
+    justify-content: center;
+}
+
+/*FOOTER*/
+
+footer{
+    font-size:1em;
+    display:flex;
+    justify-content:space-around;
+    align-items:flex-start;
+    padding-top:1.2em;
+    background-color:var(--rosaoscuro);
+    height:20vh;
+    font-family:'Fuzzy Bubbles';
+    color:snow;
+}
+nav a{
+    font-size:1.2em;
+    text-decoration:none;
+    justify-content:center;
+    background:var(--rosaclaro);
+    align-items:center;
+    padding:0 100px 0 0;
+    font-family:'Fuzzy Bubbles';
+}
